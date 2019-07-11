@@ -123,6 +123,7 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
             vc.name = task.taskName
             vc.detail = task.taskDetail
             vc.limit = stringFromDate(date: task.taskLimit, format: "yyyy/MM/dd HH:mm")
+            vc.notifyTime = task.notifyTime
             vc.isRegister = false
 
         } else if segue.identifier == "register" {

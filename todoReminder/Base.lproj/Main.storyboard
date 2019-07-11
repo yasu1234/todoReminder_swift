@@ -214,17 +214,36 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通知時間(下の選択肢から選んでください)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vu-1Y-Npu">
+                                <rect key="frame" x="16" y="433" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ここをタップすると選択肢が表示されます" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o7n-ux-bnd">
+                                <rect key="frame" x="16" y="478" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="lVw-XZ-E3U" firstAttribute="bottom" secondItem="e3R-1c-27t" secondAttribute="bottom" constant="63" id="09O-GS-UC1"/>
+                            <constraint firstItem="o7n-ux-bnd" firstAttribute="leading" secondItem="lVw-XZ-E3U" secondAttribute="leading" constant="16" id="74F-PX-Bkd"/>
+                            <constraint firstItem="3vu-1Y-Npu" firstAttribute="leading" secondItem="lVw-XZ-E3U" secondAttribute="leading" constant="16" id="7Kg-bL-PQU"/>
                             <constraint firstItem="lVw-XZ-E3U" firstAttribute="bottom" secondItem="5bB-K1-NXp" secondAttribute="bottom" constant="63" id="968-CW-rvJ"/>
+                            <constraint firstItem="o7n-ux-bnd" firstAttribute="top" secondItem="3vu-1Y-Npu" secondAttribute="bottom" constant="24" id="9Yl-Pv-0cA"/>
+                            <constraint firstItem="lVw-XZ-E3U" firstAttribute="trailing" secondItem="3vu-1Y-Npu" secondAttribute="trailing" constant="16" id="AXa-XA-vwP"/>
+                            <constraint firstItem="lVw-XZ-E3U" firstAttribute="trailing" secondItem="o7n-ux-bnd" secondAttribute="trailing" constant="16" id="JqP-qW-w6U"/>
+                            <constraint firstItem="3vu-1Y-Npu" firstAttribute="leading" secondItem="lVw-XZ-E3U" secondAttribute="leading" constant="16" id="Nyp-nn-uBL"/>
                             <constraint firstItem="5bB-K1-NXp" firstAttribute="leading" secondItem="lVw-XZ-E3U" secondAttribute="leading" constant="16" id="P6e-Tn-Csn"/>
                             <constraint firstItem="zdo-j3-6Dk" firstAttribute="top" secondItem="Gxy-3a-oaz" secondAttribute="bottom" constant="24" id="RW2-Bf-p5l"/>
                             <constraint firstItem="Gxy-3a-oaz" firstAttribute="top" secondItem="Uw5-Rc-tEh" secondAttribute="bottom" constant="8" id="SOt-Np-2Nt"/>
                             <constraint firstItem="x95-vN-mDb" firstAttribute="top" secondItem="zdo-j3-6Dk" secondAttribute="bottom" constant="16" id="Wwp-y1-vmb"/>
                             <constraint firstItem="8aq-qw-SQt" firstAttribute="top" secondItem="0PD-E6-N5F" secondAttribute="bottom" constant="26" id="aij-xA-8JA"/>
                             <constraint firstItem="lVw-XZ-E3U" firstAttribute="trailing" secondItem="e3R-1c-27t" secondAttribute="trailing" constant="16" id="b2W-QT-feJ"/>
+                            <constraint firstItem="3vu-1Y-Npu" firstAttribute="top" secondItem="8aq-qw-SQt" secondAttribute="bottom" constant="38" id="ebd-lM-Pdb"/>
                             <constraint firstItem="x95-vN-mDb" firstAttribute="leading" secondItem="lVw-XZ-E3U" secondAttribute="leading" constant="16" id="evD-va-zqj"/>
                             <constraint firstItem="Uw5-Rc-tEh" firstAttribute="top" secondItem="lVw-XZ-E3U" secondAttribute="top" constant="18" id="h2E-t2-Lhd"/>
                             <constraint firstItem="lVw-XZ-E3U" firstAttribute="trailing" secondItem="Gxy-3a-oaz" secondAttribute="trailing" constant="16" id="huR-vx-n1F"/>
@@ -245,6 +264,7 @@
                         <outlet property="taskDetail" destination="x95-vN-mDb" id="DEt-Kc-uEt"/>
                         <outlet property="taskLimit" destination="8aq-qw-SQt" id="NaF-Xq-cY4"/>
                         <outlet property="taskName" destination="Gxy-3a-oaz" id="BNN-gs-pit"/>
+                        <outlet property="taskNotifyTime" destination="o7n-ux-bnd" id="fWY-uT-GnF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DaG-ye-MhI" userLabel="First Responder" sceneMemberID="firstResponder"/>
