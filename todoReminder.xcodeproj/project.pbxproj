@@ -188,11 +188,11 @@
 				B38F4F22227C8AC200427491 /* Model */,
 				B3147F0322882F7400722C86 /* Custom */,
 				B3301832227C1FB200BE04F1 /* AppDelegate.swift */,
+				B3981C2522D646E00056B61F /* Constants.swift */,
 				B3301836227C1FB200BE04F1 /* Main.storyboard */,
 				B3301839227C1FB500BE04F1 /* Assets.xcassets */,
 				B330183B227C1FB500BE04F1 /* LaunchScreen.storyboard */,
 				B330183E227C1FB500BE04F1 /* Info.plist */,
-				B3981C2522D646E00056B61F /* Constants.swift */,
 			);
 			path = todoReminder;
 			sourceTree = "<group>";
