@@ -23,6 +23,7 @@
 		B38F4F24227C8AFC00427491 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F4F23227C8AFC00427491 /* Task.swift */; };
 		B38F4F29227C8E3000427491 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38F4F27227C8BC700427491 /* RealmSwift.framework */; };
 		B38F4F2C227C8E3500427491 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38F4F25227C8BC200427491 /* Realm.framework */; };
+		B3981C2622D646E00056B61F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3981C2522D646E00056B61F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		B38F4F23227C8AFC00427491 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		B38F4F25227C8BC200427491 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38F4F27227C8BC700427491 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3981C2522D646E00056B61F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E0763588D0140709934F149D /* Pods_todoReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todoReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -190,6 +192,7 @@
 				B3301839227C1FB500BE04F1 /* Assets.xcassets */,
 				B330183B227C1FB500BE04F1 /* LaunchScreen.storyboard */,
 				B330183E227C1FB500BE04F1 /* Info.plist */,
+				B3981C2522D646E00056B61F /* Constants.swift */,
 			);
 			path = todoReminder;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				B306ECEA228669AB00102CA7 /* TaskListViewCell.swift in Sources */,
 				B3301847227C32F400BE04F1 /* TaskEditViewController.swift in Sources */,
 				B38F4F24227C8AFC00427491 /* Task.swift in Sources */,
+				B3981C2622D646E00056B61F /* Constants.swift in Sources */,
 				B32EA0DB227DC8570067A4FF /* CustomTextField.swift in Sources */,
 				B3301833227C1FB200BE04F1 /* AppDelegate.swift in Sources */,
 			);
@@ -586,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -641,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
