@@ -28,6 +28,16 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
         // Realmに保存されてるDog型のオブジェクトを全て取得
         let tasks = realm.objects(Task.self)
         
+        // 通知時間が登録されていない場合は指定なしで登録する
+        for task in tasks {
+            if (task.notifyTime == "") {
+                try! realm.write() {
+                    task.notifyTime = NotifyTime.UNSELECT.rawValue
+                    realm.add(task)
+                }
+            }
+        }
+        
         if (tasks.count < 1) {
             explanation.isHidden = true
         }
