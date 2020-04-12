@@ -24,6 +24,8 @@
 		B38F4F29227C8E3000427491 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38F4F27227C8BC700427491 /* RealmSwift.framework */; };
 		B38F4F2C227C8E3500427491 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38F4F25227C8BC200427491 /* Realm.framework */; };
 		B3981C2622D646E00056B61F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3981C2522D646E00056B61F /* Constants.swift */; };
+		D4F06E0D948B449F3E664EAA /* Pods_todoReminder_todoReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100631601A3AD9BA4564A26B /* Pods_todoReminder_todoReminderUITests.framework */; };
+		FB9B2DBC6E3898885D15D333 /* Pods_todoReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F842EDF47500CA46EAB22C /* Pods_todoReminderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +59,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		100631601A3AD9BA4564A26B /* Pods_todoReminder_todoReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todoReminder_todoReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4C812A6ECB876CEC78F1AE /* Pods-todoReminder-todoReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoReminder-todoReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-todoReminder-todoReminderUITests/Pods-todoReminder-todoReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3AF7B7DF5375097F2D151843 /* Pods-todoReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoReminder.release.xcconfig"; path = "Target Support Files/Pods-todoReminder/Pods-todoReminder.release.xcconfig"; sourceTree = "<group>"; };
 		630F88322A84F3B068BAF358 /* Pods-todoReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoReminder.debug.xcconfig"; path = "Target Support Files/Pods-todoReminder/Pods-todoReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		77BE81B4FB03B8C0CDD46E91 /* Pods-todoReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoReminderTests.release.xcconfig"; path = "Target Support Files/Pods-todoReminderTests/Pods-todoReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		A54157449C04C190A9D9C1FB /* Pods-todoReminder-todoReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoReminder-todoReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-todoReminder-todoReminderUITests/Pods-todoReminder-todoReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B306ECE9228669AB00102CA7 /* TaskListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewCell.swift; sourceTree = "<group>"; };
 		B306ED572286FDEE00102CA7 /* todoReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B306ED5B2286FDEE00102CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,7 +87,9 @@
 		B38F4F25227C8BC200427491 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38F4F27227C8BC700427491 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3981C2522D646E00056B61F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B40CF2C596AB7979FDC036A1 /* Pods-todoReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-todoReminderTests/Pods-todoReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0763588D0140709934F149D /* Pods_todoReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todoReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F842EDF47500CA46EAB22C /* Pods_todoReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todoReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9B2DBC6E3898885D15D333 /* Pods_todoReminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F06E0D948B449F3E664EAA /* Pods_todoReminder_todoReminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +127,10 @@
 			children = (
 				630F88322A84F3B068BAF358 /* Pods-todoReminder.debug.xcconfig */,
 				3AF7B7DF5375097F2D151843 /* Pods-todoReminder.release.xcconfig */,
+				A54157449C04C190A9D9C1FB /* Pods-todoReminder-todoReminderUITests.debug.xcconfig */,
+				1A4C812A6ECB876CEC78F1AE /* Pods-todoReminder-todoReminderUITests.release.xcconfig */,
+				B40CF2C596AB7979FDC036A1 /* Pods-todoReminderTests.debug.xcconfig */,
+				77BE81B4FB03B8C0CDD46E91 /* Pods-todoReminderTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -211,6 +225,8 @@
 				B38F4F27227C8BC700427491 /* RealmSwift.framework */,
 				B38F4F25227C8BC200427491 /* Realm.framework */,
 				E0763588D0140709934F149D /* Pods_todoReminder.framework */,
+				100631601A3AD9BA4564A26B /* Pods_todoReminder_todoReminderUITests.framework */,
+				E8F842EDF47500CA46EAB22C /* Pods_todoReminderTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B306ED5E2286FDEE00102CA7 /* Build configuration list for PBXNativeTarget "todoReminderTests" */;
 			buildPhases = (
+				76CE36E00733F0E1E8ADD508 /* [CP] Check Pods Manifest.lock */,
 				B306ED532286FDEE00102CA7 /* Sources */,
 				B306ED542286FDEE00102CA7 /* Frameworks */,
 				B306ED552286FDEE00102CA7 /* Resources */,
@@ -240,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B306ED7022870CF400102CA7 /* Build configuration list for PBXNativeTarget "todoReminderUITests" */;
 			buildPhases = (
+				4B05E7C955AE15A224684E0F /* [CP] Check Pods Manifest.lock */,
 				B306ED6522870CF400102CA7 /* Sources */,
 				B306ED6622870CF400102CA7 /* Frameworks */,
 				B306ED6722870CF400102CA7 /* Resources */,
+				0103E7D8C2C7272680EA7DAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,6 +364,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0103E7D8C2C7272680EA7DAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todoReminder-todoReminderUITests/Pods-todoReminder-todoReminderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todoReminder-todoReminderUITests/Pods-todoReminder-todoReminderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-todoReminder-todoReminderUITests/Pods-todoReminder-todoReminderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2A364B891262E59F8D6410E7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,22 +409,59 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-todoReminder/Pods-todoReminder-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-todoReminder/Pods-todoReminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-todoReminder/Pods-todoReminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-todoReminder/Pods-todoReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B05E7C955AE15A224684E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todoReminder-todoReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CE36E00733F0E1E8ADD508 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todoReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -463,6 +536,7 @@
 /* Begin XCBuildConfiguration section */
 		B306ED5F2286FDEE00102CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40CF2C596AB7979FDC036A1 /* Pods-todoReminderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +557,7 @@
 		};
 		B306ED602286FDEE00102CA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77BE81B4FB03B8C0CDD46E91 /* Pods-todoReminderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +578,7 @@
 		};
 		B306ED7122870CF400102CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54157449C04C190A9D9C1FB /* Pods-todoReminder-todoReminderUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H23R45A64Q;
@@ -522,6 +598,7 @@
 		};
 		B306ED7222870CF400102CA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4C812A6ECB876CEC78F1AE /* Pods-todoReminder-todoReminderUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H23R45A64Q;
